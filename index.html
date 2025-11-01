@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Скачать мое видео</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        video {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Мое видео</h1>
+        <p>Посмотрите видео ниже или скачайте его</p>
+
+        <!-- ВСТАВЬТЕ ВАШЕ ВИДЕО ЗДЕСЬ -->
+        <video controls>
+            <source src="Obratnaya.Storona.Luny.s01e01.2012.AVC.HDRip.KPK.GF.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео
+        </video>
+
+        <br>
+
+        <!-- И ЗДЕСЬ ТОЖЕ -->
+        <a href="Obratnaya.Storona.Luny.s01e01.2012.AVC.HDRip.KPK.GF.mp4" class="download-btn" download>Скачать видео</a>
+
+        <p style="margin-top: 30px; color: #666;">
+            Просто замените "Моё видео.avi" на название вашего файла
+        </p>
+    </div>
+</body>
+</html>
